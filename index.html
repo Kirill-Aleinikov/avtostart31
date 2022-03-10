@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVTOSTART31</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal__content">
+            <span class="close" >&times;</span>
+            <div class="modal-info">
+                <form action="mail.php" method="POST" class="col-fotm-ac">
+                    <div>
+                        <img src="./img/logo.png">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="" name="user_name" placeholder="Введите имя">
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 999 99 99">
+                    </div>
+
+                    <button type="submit" class="btn-primary">Отправить форму</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    <header class="header">
+        <div class="conteiner">
+          <div class="header__body">
+              <a href="index.html" class="header__logo">
+                <img src="./img/logo.png">
+              </a>
+                <div class="header__burger">
+                  <span> </span>
+                </div>
+                  <nav class="header__menu">
+                      <ul class="header__list">
+                          <li>
+                              <a href="#about-company" class="header__link">О компании</a>
+                          </li>
+                          <li>
+                              <a href="#teach" class="header__link">Обучение</a>
+                          </li>
+                          <li>
+                              <a href="#categories" class="header__link">Категории</a>
+                          </li>
+                          <li>
+                              <a href="#location" class="header__link">Контакты</a>
+                          </li>
+                          <li>
+                            <a class="header__link" id="number">8 (842) 227-22-20</a>
+                          </li>
+                          <li>
+                            <button id="myBtn-1"class="myBtn">
+                                <a id="myBtn-1" class="myBtn header__link" >Заказать звонок</a>
+                            </button>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>  
+        </div>
+
+    <div class="main-block">
+        <div class="f-col">
+            <div>
+                <h1>
+                    АВТОСТАРТ<br> в Старом Осколе
+                </h1>
+                <span>
+                    Подготовка водителей категории "А1"<br> 
+                    Подготовка водителей категории "В"<br> 
+                    Подготовка трактористов категории "С"<br> 
+                </span>
+            </div>
+        </div>
+
+            <div class="col-sm-4">
+                <form action="mail.php" method="POST" class="col-fotm">
+                    <div>
+                        Напишите как мы можем к вам
+                        обращаться, оставьте номер телефона
+                        и наши менеджеры перезвонят вам
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="" name="user_name" placeholder="Введите имя">
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 999 99 99">
+                    </div>
+
+                    <button type="submit" class="btn-primary">Отправить форму</button>
+                </form>
+            </div>
+      </div>
+    </header>
+
+    <div class="about-company" id="about-company">
+        <h1 class="center">
+            Почему стоит выбрать АВТОСТАРТ:
+        </h1>
+        <div class="company-plus">
+            <a class="plus-item myBtn" id="myBtn">
+                <span>
+                    Учись без высоких затрат   
+                </span>
+                <span>
+                    Обучение по
+                    <br> честным ценам
+                </span>
+                <span>
+                    Подробнее
+                    <i></i>
+                </span>
+            </a>
+            <a class="plus-item myBtn" id="myBtn">
+                <span>
+                    Получи права в режиме "Турбо"             
+                </span>
+                <span>
+                    Срок обучения<br>
+                    от 1,5 месяцев
+                </span>
+                <span>
+                    Подробнее
+                    <i></i>
+                </span>
+            </a>
+            <a class="plus-item myBtn" id="myBtn">
+                <span>
+                    Учись сейчас, плати потом 
+                </span>
+                <span>
+                    Рассрочка
+                    <br>
+                    12 месяцев
+                </span>
+                <span>
+                    Подробнее
+                    <i></i>
+                </span>
+            </a>
+            <a class="plus-item myBtn" id="myBtn">
+                <span>
+                   Сопровождение в Гостехнадзор
+                </span>
+                <span>
+                    Подготовим <br> и оформим все <br> документы
+                </span>
+                <span>
+                    Подробнее
+                    <i></i>
+                </span>
+            </a>
+            <span style="text-align: center;">
+                Наша автошкола лицензирована в Министерстве образования Белгородской области,<br> а также получено заключение о соответствии требованиям от РЭО ГИБДД Старого Оскола и Старооскольского Гостехнадзора.
+            </span>
+        </div>
+
+        <div class="center">
+            <button class="myBtn" id="myBtn">
+                 Получить все преимущества 
+                <i></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="learning-stages" id="teach">
+        <div class="center tech">
+            <h1>
+                Этапы обучения в Автошколе
+            </h1>
+            <span>
+                Мы постарались кратко изложить программу
+                <br> обучения в автошколе "АвтоСтарт"
+            </span>
+        </div>
+        <div class="learning">
+            <div class="block-le">
+                <ul>
+                    <li>
+                        Первые недели обучения в автошколе отводятся исключительно для изучения теории.
+                    </li>
+                    <li>
+                        Эти занятия позволят вам освоить базовые знания ПДД, повторить знаки и дорожную разметку, устройство квадроцикла и т.д.
+                    </li>
+                </ul>
+            </div>
+            <div class="block-le">
+                <ul>
+                    <li>
+                        Далее идет обучение в автошколе навыкам вождения одновременно с закреплением теории.
+                    </li>
+                    <li>
+                        Следующий этап обучения - отработка навыков вождения с помощью экзаменационных упражнений на нашем автодроме.
+                    </li>
+                </ul>
+            </div>
+            <div class="block-le">
+                <ul>
+                    <li>
+                        Экзамены в автошколе
+                    </li>
+                    <li>
+                        Вы получите полный комплект документов об окончании обучения и советы инструкторов, на что еще обратить внимание.
+                    </li>
+                </ul>
+            </div>
+            <div class="block-le">
+                <ul>
+                    <li>
+                        Экзамен в Гостехнадзоре
+                    </li>
+                    <li>
+                        Мы оформим все документы и решим организационные вопросы. Вы сможете спокойно подготовиться и сдать экзамен.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="center tech" id="categories">
+            <h1>
+                Услуги и цены
+            </h1>
+        </div>
+        <div class="cars">
+            <div class="mar">
+                <div class="he">
+                    <img src="./img/motorcycle.png">
+                </div>
+                <div class="info-car">
+                    <span>
+                        Водитель категории "A1"
+                    </span>
+                    <span>
+                        Сопровождение на экзамен в Гостехнадзор
+                    </span>
+                    <div>
+                        <span>
+                            Практика
+                        </span>
+                        <span>
+                            Теория
+                        </span>
+                    </div>
+                    <span>
+                        7 000 ₽
+                    </span>
+                    <button id="myBtn" class="myBtn">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+            <div class="mar">
+                <div class="he">
+                    <img src="./img/car.png">
+                </div>
+                <div class="info-car">
+                    <span>
+                        Водитель категории "B"
+                    </span>
+                    <span>
+                        Сопровождение на экзамен в Гостехнадзор
+                    </span>
+                    <div>
+                        <span>
+                            Практика
+                        </span>
+                        <span>
+                            Теория
+                        </span>
+                    </div>
+                    <span>
+                        7 000 ₽
+                    </span>
+                    <button id="myBtn" class="myBtn">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+            <div class="mar">
+                <div class="he">
+                    <img src="./img/tractor.png">
+                </div>
+                <div class="info-car">
+                    <span>
+                        Тракторист категории "С"
+                    </span>
+                    <span>
+                        Сопровождение на экзамен в Гостехнадзор
+                    </span>
+                    <div>
+                        <span>
+                            Практика
+                        </span>
+                        <span>
+                            Теория
+                        </span>
+                    </div>
+                    <span>
+                        7 000 ₽
+                    </span>
+                    <button id="myBtn" class="myBtn">
+                        Записаться
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="center" id="location">
+            Контактная информация
+        </h1>
+        <div class="cont-inf">
+            <div class="bl">
+                <div>Адрес:</div>
+                <div>м-он Дубрава-3, д.1А, 1 этаж <br>(вход с внутренней стороны дома)</div>
+            </div>
+            
+            <div class="vl">
+                <div class="bl">
+                    <div>Почта:</div>
+                    <div>avtostart.31@mail.ru</div>
+                </div>
+                <div class="bl">
+                    <div>Телефон:</div>
+                    <div>+ 7 (910) 362 14 80</div>
+                </div>
+            </div>
+            
+            <div class="bl">
+                <div>Режим работы : </div>
+                <div>пн-пт с 09.00 до 17.00<br> Сб - выходной</div>
+            </div>
+        </div>
+        </div>
+        <div class="map-box">
+            <div id="map" data-mapx="51.305975" data-mapy="37.911097"></div>
+        </div>
+    </div>
+    <script src="account.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="index.js"></script>
+
+    <script src="scroll.js"></script>
+</body>
